@@ -1,0 +1,28 @@
+{
+    "name": "qingsong/think-phpexcel",
+    "description": "read excel for tp5 or tp6",
+    "homepage": "https://github.com/wangqs33/think-alibabacloud",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "version": "2.0",
+    "authors": [
+        {
+            "name": "zhouwang33",
+            "email": "wangqs33@126.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/wangqs33/think-alibabacloud/issues"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "ext-mbstring": "*",
+        "ext-xml": "*",
+        "ext-xmlwriter": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "qingsong\\alibabacloud\\": "src/"
+        }
+    }
+}
