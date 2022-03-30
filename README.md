@@ -10,7 +10,11 @@ composer require qingsong/think-alibabacloud
 
 ## 调用方法
 ```
-
+$faceobj = new \qingsong\alibabacloud\Faceverify($accessKeyId, $accessKeySecret);
+$result = $faceobj->imagecomparison($imageurla, $imageurlb);   
+if ($result['Data']['Confidence'] > 90) {
+/////相似度大于90/////
+}
 ```
 
 ## 删除包
